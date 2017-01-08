@@ -30,6 +30,7 @@ namespace Common.Selector
 			if (m_SelectedGameObject != null) 
 			{
 				Debug.Log (m_SelectedGameObject);
+				Destroy (m_SelectedGameObject);
 			} 
 			else 
 			{
